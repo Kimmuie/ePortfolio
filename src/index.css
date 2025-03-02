@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Ibarra;
+  src: url("../src/assets/fonts/Ibarra-Bold.tff");
+  font-family: Sarabun;
+  src: url("../src/assets/fonts/Sarabun-ExtraBold.ttf");
+}
+@import "tailwindcss";
+
+@theme {
+  --font-ibarra: "Ibarra", "sans-serif";
+  --font-Sarabun: "Sarabun", "sans-serif";
+  --color-primeWhite: #FFFAFA;
+  --color-primeBlack: #0e1111;
+  --color-seconBlue1: #2D336B;
+  --color-seconBlue2: #7886C7;
+  --color-seconBlue3: #A9B5DF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
